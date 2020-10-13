@@ -89,4 +89,9 @@ public class MyLinkedList<K> {
 		return null;
 	}
 
+	@Override
+	public String toString() {
+		return "MyLinkedListNodes { " + head + " } ";
+	}
+
 }
